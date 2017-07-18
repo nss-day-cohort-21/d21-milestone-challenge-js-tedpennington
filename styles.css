@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas:400,700');
+
+body {
+	font-family: "Mountains of Christmas", cursive, sans-serif;
+	font-size: 1.5em;
+	margin: 0;
+	/*padding: 0;*/
+	background-color: green;
+}
+
+header {
+	background-color: red;
+	text-align: center;
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+header h1 {
+	/*margin: 0;*/
+	/*padding: 0;*/
+}
+
+main {
+	text-align: center;
+}
+
+main h2 {
+	margin: 10px auto;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+	background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: red;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+	background-color: red;
+	color: white;
+}
